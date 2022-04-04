@@ -1,0 +1,11 @@
+.question-container{
+    margin-top: 300px;
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 687px) {
+    .question-container{
+        margin-top: 1300px;
+    }
+    
+}

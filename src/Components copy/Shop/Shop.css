@@ -1,0 +1,30 @@
+.shop-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 15px;
+    margin: 15px;
+}
+.order-card{
+    background-color: antiquewhite;
+    padding: 15px;
+    border-radius: 15px;
+}
+.select-btn{
+    background-color: white;
+    padding: 15px;
+    border: 0;
+    border-radius: 10px;
+}
+.again-btn{
+    margin-top: 20px;
+    background-color: white;
+    padding: 15px;
+    border: 0;
+    border-radius: 10px;
+}
+/* @media screen and (max-width:687px) {
+    .shop-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+} */

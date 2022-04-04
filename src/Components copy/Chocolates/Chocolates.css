@@ -1,0 +1,12 @@
+.chocolates-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5%;
+}
+@media screen and (max-width: 687px) {
+    .chocolates-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
